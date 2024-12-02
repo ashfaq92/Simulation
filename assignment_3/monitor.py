@@ -70,6 +70,8 @@ class Monitor:
             np.mean(self.recovery_util_samples)
         )
 
+
+
     def get_raw_data(self):
         """Return raw sample data for detailed analysis"""
         if self.sample_count == 0:
